@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Job Test</string>
+    <string name="start_immediate_job">Immediate Job (Runs for 20 Secs)</string>
+    <string name="start_periodic_job">Periodic Job (Runs for 10 Secs)</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.dhimandasgupta.jobtest.MainActivity">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/immediate_job_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/start_immediate_job"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/periodic_job_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/start_periodic_job"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/last_immediate_job_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        tools:text="Last Immediate Job :"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/last_periodic_job_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        tools:text="Last Periodic Job :"/>
+</LinearLayout>
